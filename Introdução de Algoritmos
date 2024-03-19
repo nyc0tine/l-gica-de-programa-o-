@@ -1,0 +1,6 @@
+// Utilização da pseudolinguagem: Portugol
+
+escreva("O que é um algoritmo? \n Algoritmo é uma sequência finita de instruções, ordenadas de forma lógica para a resolução de um problema.)
+escreva("\n"+"\n")
+
+escreva("Os compiladores (aplicativos de edição de código) são utilizados como um intermédio \n entre o programador e o computador, uma vez que o computador entende apenas em binário e seria de alta complexidade produzir códigos dessa maneira.")
