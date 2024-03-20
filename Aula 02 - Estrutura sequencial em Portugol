@@ -27,7 +27,7 @@ programa
 		// Ser uma palavra reservada, como "escreva"
 		// Conter espaço (  )
 		// Iniciar com números
-		// Conter acentuação 
+		// Conter acentuação
 
 // Pode-se definir mais de um valor para uma variável em uma linha.
 	real Idade, Peso, Altura
