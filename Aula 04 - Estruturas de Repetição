@@ -1,7 +1,8 @@
 // São utilizadas quando há a necessidade de uma repetição em uma parte do código. Essas repetições podem ter um número fixo ou serem definidas por uma condição
-// Estrutura:
+
+  // A estrutura "enquanto" verificará a veracidade de uma condição e repetira um bloco de código até que a condição se torne falsa
 enquanto (condição) {
-bloco de código
+  bloco de código
 } 
 
   // Quando o número é fixo
@@ -11,4 +12,22 @@ enquanto (numero <= 10) {
   escreva(numero)
   numero = numero + 1
 }
+// O código acima irá pegar o valor de uma variável chamada "numero" e o mostrar para o usuário caso esse número seja menor ou igual a 10, em seguida aumentará o valor do número em +1, o processo se repete até que a variável numero chegue a 10
+
+
+  // A estrutura "faca enquanto" primeiro rodará o bloco de código e então irá verificar a veracidade da condição, repetindo o bloco até que a condição se torne falsa
+faça {
+  bloco de código
+} enquanto (condição)
+
+  // Quando o número é fixo
+
+  // Quando a quantidade de repetições depende de uma condição
+faça {
+  escreva(numero)
+  numero = numero + 1
+} enquanto (numero < 10)
 // O código acima irá pegar o valor de uma variável chamada "numero" e o mostrar para o usuário, em seguida aumentando o valor do número em +1, o processo se repete até que a variável numero chegue a 10
+
+
+  // A estrutura "para" 
