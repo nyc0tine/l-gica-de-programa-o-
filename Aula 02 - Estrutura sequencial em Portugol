@@ -3,31 +3,33 @@ programa
 {
 	funcao inicio() {
 	// insira o código aqui
-	escreva("O que são variáveis? \n")
-	escreva("Uma variável possui a finalidade de \n armazenar dados por um curto espaço de tempo, \n" representando uma posição na memória.")
+	}
+}
 
-	// Identifica-se uma variável as associando a nomes, que serão usados ao longo do código para chamar (fazer referência) a variável.
+// O que são variáveis?
+	// Uma variável possui a finalidade de armazenar dados por um curto espaço de tempo, representando uma posição na memória.
+
+// Identifica-se uma variável as associando a nomes, que serão usados ao longo do código para chamar (fazer referência) a variável.
 	// ! importante lembrar que cada variável deve possuir um nome diferente.
 
-
-	escreva("É necessário atribuir um tipo de valor para a variável para que seu conteúdo venha a ser válido. \n \n")
-	//	Exemplos de valores: 
-	//cadeia: Utilizada quando o valor da variável é uma sequência de caracteres; 
-	//inteiro: Utilizado quando o valor da variável é um número inteiro;
-	//real: Utilizada quando o valor da variável não necessariamente é um número inteiro; 
-	//logico: Utilizada quando o valor da variável é Verdadeiro ou Falso.
-
+// É necessário atribuir um tipo de valor para a variável para que seu conteúdo venha a ser válido.
+	// Exemplos de valores: 
+		//cadeia: Utilizada quando o valor da variável é uma sequência de caracteres; 
+		//inteiro: Utilizado quando o valor da variável é um número inteiro;
+		//real: Utilizada quando o valor da variável não necessariamente é um número inteiro; 
+		//logico: Utilizada quando o valor da variável é Verdadeiro ou Falso.
 	inteiro pessoas
 	real peso
 	cadeia nome
 	logico temChapeu
 
-	//	Variáveis não podem:
-	// Ser uma palavra reservada, como "escreva"
-	// Conter espaço (  )
-	// Iniciar com números
+	//Variáveis não podem:
+		// Ser uma palavra reservada, como "escreva"
+		// Conter espaço (  )
+		// Iniciar com números
+		// Conter acentuação 
 
-	escreva("Pode-se definir mais de um valor para uma variável em uma linha.")
+// Pode-se definir mais de um valor para uma variável em uma linha.
 	real Idade, Peso, Altura
 	cadeia Nome, Endereco
 
@@ -35,9 +37,9 @@ programa
 	Idade = 18
 
 	// O que é entrada e saída?
-	escreva("Entrada é todo o dado interido pelo usuário dentro do código. Para atribuir este valor a uma variável e armazená-lo, utilizamos o comando: \n leia(nome da variável)")
-	escreva("\n Saída é o que o código mostra para o usuário, para isso, utilizamos o comando: \n escreva()
+// Entrada é todo o dado interido pelo usuário dentro do código. Para atribuir este valor a uma variável e armazená-lo, utilizamos o comando: 
+leia(nome da variável)
 
+// Saída é o que o código mostra para o usuário, para isso, utilizamos o comando: 
+escreva()
 	// ! no caso do comando de saída, podemos inserir dentro dos parênteses do comando "escreva" tanto uma variável como um texto a ser lido (essa segunda opção funciona apenas entre aspas ("texto a ser lido")
-	}
-}
