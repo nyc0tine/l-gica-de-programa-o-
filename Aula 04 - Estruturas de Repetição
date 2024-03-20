@@ -1,0 +1,14 @@
+// São utilizadas quando há a necessidade de uma repetição em uma parte do código. Essas repetições podem ter um número fixo ou serem definidas por uma condição
+// Estrutura:
+enquanto (condição) {
+bloco de código
+} 
+
+  // Quando o número é fixo
+
+  // Quando a quantidade de repetições depende de uma condição
+enquanto (numero <= 10) {
+  escreva(numero)
+  numero = numero + 1
+}
+// O código acima irá pegar o valor de uma variável chamada "numero" e o mostrar para o usuário, em seguida aumentando o valor do número em +1, o processo se repete até que a variável numero chegue a 10
