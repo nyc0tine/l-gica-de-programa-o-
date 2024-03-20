@@ -1,43 +1,44 @@
 // Condições são decisões que o código deverá fazer baseado nos valores das variáveis
-programa {
-  funcao inicio() {
+
   // As estruturas de condição iniciam-se com "se"
   se o time não vencer o próximo jogo, o técnico será demitido
 
-  // nesse caso, o algoritmo deverá ler as variáves e executar o bloco de código referente à condição apenas se esta for verdadeira
+    // nesse caso, o algoritmo deverá ler as variáves e executar o bloco de código referente à condição apenas se esta for verdadeira
   cadeia Vencer
   escreva("Ganhou ou Perdeu? ")
   leia(Vencer)
   se (Vencer == "Perdeu") {
     escreva("O técnico foi demitido")
     }
+
   // Para adicionar um bloco de código para caso da condição ser falsa, usamos "senao"
   se (condição) {
     bloco de código
     } senao {
       escreva("O técnico prossegue no time")  
       }
+
   // Existem também estruturas condicionais que apresentam mais de uma condição, chamamo-as de expressões
-  escreva("As expressões são formadas com os operadores lógicos "e" ou "ou"")
+    // As expressões são formadas com os operadores lógicos "e" ou "ou"
+
 
   // Como funciona o "e"
-  escreva("Assim como no português, o "e" funciona logicamente para atribuir um valor a uma conjunção de atributos")
-
+//Assim como no português, o "e" funciona logicamente para atribuir um valor a uma conjunção de atributos
   // Por exemplo
-  // O número 1 é real e inteiro: Verdadeiro
-  // O número 1 é inteiro e par: Falso
+    // O número 1 é real e inteiro: Verdadeiro
+    // O número 1 é inteiro e par: Falso
 
-  escreva("Apenas uma das opções serem Falsas já é o suficiente para atribuir o valor lógico "Falso" a toda a expressão")
+// Apenas uma das opções serem Falsas já é o suficiente para atribuir o valor lógico "Falso" a toda a expressão")
+
 
   // Como funciona o "ou"
-  escreva("Do mesmo modo que o "e" possui o mesmo significado do português, o "ou" também tem, sendo ele uma disjunção incluisiva de atributos")
-
+// Do mesmo modo que o "e" possui o mesmo significado do português, o "ou" também tem, sendo ele uma disjunção incluisiva de atributos")
   // Por exemplo
-  // O número 1 é real ou par: Verdadeiro
-  // O número 1 é real ou ímpar: Verdadeiro
-  // O número 1 é par ou cadeia: Falso
+    // O número 1 é real ou par: Verdadeiro
+    // O número 1 é real ou ímpar: Verdadeiro
+    // O número 1 é par ou cadeia: Falso
 
-  escreva("Apenas uma condição ser verdadeira é suficiente para atribuir o valor lógico "Verdadeiro" a toda a expressão")
+// Apenas uma condição ser verdadeira é suficiente para atribuir o valor lógico "Verdadeiro" a toda a expressão")
   
   inteiro Idade
   escreva("Quantos anos você tem? ")
@@ -49,8 +50,9 @@ programa {
   se (Idade < 0 ou Idade > 120) {
     escreva("Não está entre nós")
   }
-  // Existe ainda o caso onde há um intermédio entre o "se"e o "senao", que é o senao se
 
+
+    // Existe ainda o caso onde há um intermédio entre o "se"e o "senao", que é o senao se
   se (Condição) {
     bloco de código
   } senao se (Condição) {
@@ -58,6 +60,3 @@ programa {
   } senao {
     bloco de código
   }
-
-}
-}
