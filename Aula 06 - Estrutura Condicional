@@ -1,0 +1,17 @@
+// Equivalente ao "se" do Portugol, temos o "if" em Python
+if (numero_de_ pessoas >= 100):
+  print("Lotado")
+
+// Assim como o "senao" equivale a "else"
+if (numero_de_pessoas < 100):
+  print(100 - numero_de_pessoas, "ainda podem ser convidadas")
+else:
+  print("Ninguém mais pode ser convidado (Lotado)")
+
+  // Operadores de comparação
+// diferente : !=
+// igual : ==
+// maior que : >
+// maior ou igual a : >=
+// menor que : <
+// menor ou igual a : <=
