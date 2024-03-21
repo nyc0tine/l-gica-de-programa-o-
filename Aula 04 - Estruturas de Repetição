@@ -6,6 +6,13 @@ enquanto (condição) {
 } 
 
   // Quando o número é fixo
+// define-se um contador que se itera /incrementa a cada repetição
+contador = 1
+enquanto (contador <= 5) {
+  bloco de código
+  contador = contador + 1
+}
+// Quando não se itera o contador, o loop se torna infinito
 
   // Quando a quantidade de repetições depende de uma condição
 enquanto (numero <= 10) {
@@ -20,8 +27,6 @@ faça {
   bloco de código
 } enquanto (condição)
 
-  // Quando o número é fixo
-
   // Quando a quantidade de repetições depende de uma condição
 faça {
   escreva(numero)
@@ -31,3 +36,6 @@ faça {
 
 
   // A estrutura "para" 
+// declara-se a variável, a condição de repetição e o incremento (inicialização; condição; passo)
+para(inteiro j = 100; j >= 0: j = j - 1)
+  // Costuma economizar linhas
