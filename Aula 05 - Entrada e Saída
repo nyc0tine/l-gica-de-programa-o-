@@ -1,0 +1,16 @@
+# Iniciando em Python
+
+  // Assim como no Portugol a saída era definida por um comando chamado "escreva", em Python, esse comando se chama "print" (do Português "imprima")
+print("Mensagem")
+
+  // Para definir variáveis em Python, diferentemente do Portugol, não é necessário declarar o seu tipo anteriormente, sendo possível definir seu nome e valor diretamente
+Idade = 18
+
+  // Para a entrada, diferentemente do Portugol, onde lemos a entrada a partir de um texto exibido em uma linha posterior, em Python, o texto e a leitura vêm na mesma linha
+Idade = input("Digite a sua idade: ")
+
+  // Para definir o tipo de valor de uma variável de entrada, usamos
+// int : para inteiros
+// float : para reais
+// str : para cadeias
+numero_de_pessoas = int(input("Há quantas pessoas? "))
